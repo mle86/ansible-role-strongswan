@@ -25,7 +25,7 @@
         - left: "{{ansible_default_ipv4.address}}"
           right: 1.2.3.4
           type: PSK
-          credentials: '"super wooper dooper secret"'
+          credentials: 'super wooper dooper secret'
 
   roles:
     - { role: ansible-role-strongswan, become: true }

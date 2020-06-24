@@ -46,7 +46,7 @@ strongswan_conns: {}
 #     - left: 1.2.3.4
 #       right: 2.3.4.5
 #       type: PSK
-#       credentials: '"some private PSK here"'
+#       credentials: 'some private PSK here'
 #
 
 strongswan_secrets: []

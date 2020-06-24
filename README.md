@@ -80,14 +80,12 @@ strongswan_secrets:
   - left:  1.2.3.4
     right: 2.3.4.5
     type:  PSK
-    credentials: '"super wooper passw0rd"'
+    credentials: 'super wooper passw0rd'
 
   - right: 3.4.5.6
     type: RSA
     credentials: cert.pem
 ```
-
-The double quotes inside the simple ones is meant to escape any special chars. 
 
 `RSA` private keys (or any secret type that requires a key file) might be specified 
 through `strongswan_private_keys` (TODO):
