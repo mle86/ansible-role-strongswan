@@ -1,6 +1,6 @@
 ---
 
-- include: "install/{{ansible_os_family}}.yml"
+- include_tasks: "install/{{ansible_os_family}}.yml"
 
 - name: Strongswan packages
   package:
